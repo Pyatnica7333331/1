@@ -1,0 +1,31 @@
+{
+  "name": "@pyatnica7333331/platforms_package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pyatnica7333331/Project_Platforms_Package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pyatnica7333331/Project_Platforms_Package/issues"
+  },
+  "homepage": "https://github.com/Pyatnica7333331/Project_Platforms_Package#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
